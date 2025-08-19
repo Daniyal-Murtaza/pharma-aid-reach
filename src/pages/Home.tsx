@@ -39,7 +39,7 @@ const Home = () => {
                 <ArrowRight className="ml-2 h-5 w-5" />
               </Link>
             </Button>
-            <Button variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-primary" asChild>
+            <Button variant="outline" size="lg" className="border-white hover:bg-white hover:text-primary" asChild>
               <Link to="/contact">Get in Touch</Link>
             </Button>
           </div>
@@ -253,7 +253,7 @@ const Home = () => {
                 <ArrowRight className="ml-2 h-5 w-5" />
               </Link>
             </Button>
-            <Button variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-primary" asChild>
+            <Button variant="outline" size="lg" className="border-white hover:bg-white hover:text-primary" asChild>
               <Link to="/products">Browse Products</Link>
             </Button>
           </div>
