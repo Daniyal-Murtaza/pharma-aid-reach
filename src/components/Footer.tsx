@@ -12,7 +12,7 @@ const Footer = () => {
               <div className="w-8 h-8 bg-white/20 rounded-lg flex items-center justify-center">
                 <Shield className="h-5 w-5" />
               </div>
-              <h3 className="text-lg font-bold">GlobalMed Solutions</h3>
+              <h3 className="text-lg font-bold">Aspire</h3>
             </div>
             <p className="text-white/80 text-sm">
               Your trusted global partner in pharmaceuticals and healthcare solutions. 
@@ -72,7 +72,7 @@ const Footer = () => {
               </div>
               <div className="flex items-center gap-2">
                 <Mail className="h-4 w-4 text-white/60" />
-                <span className="text-white/80">info@globalmedsolutions.com</span>
+                <span className="text-white/80">info@Aspire.com</span>
               </div>
             </div>
           </div>
@@ -81,7 +81,7 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="border-t border-white/20 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-white/60 text-sm">
-            © 2024 GlobalMed Solutions. All rights reserved.
+            © 2024 Aspire. All rights reserved.
           </p>
           <div className="flex items-center gap-4 mt-4 md:mt-0">
             <span className="text-white/60 text-xs">Certifications:</span>

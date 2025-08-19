@@ -19,7 +19,7 @@ const Header = () => {
             </div>
             <div className="flex items-center gap-2">
               <Mail className="h-4 w-4" />
-              <span>info@globalmedsolutions.com</span>
+              <span>info@Aspire.com</span>
             </div>
           </div>
           <div className="flex items-center gap-2">
@@ -35,7 +35,7 @@ const Header = () => {
               <Shield className="h-6 w-6 text-white" />
             </div>
             <div>
-              <h1 className="text-xl font-bold text-foreground">GlobalMed Solutions</h1>
+              <h1 className="text-xl font-bold text-foreground">Aspire</h1>
               <p className="text-xs text-muted-foreground">Healthcare & Pharmaceuticals</p>
             </div>
           </Link>
