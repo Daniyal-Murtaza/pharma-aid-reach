@@ -1,8 +1,7 @@
-# Welcome to your Lovable project
+
 
 ## Project info
 
-**URL**: https://lovable.dev/projects/68f9d1df-5902-440e-922e-48d3a2836e9d
 
 ## How can I edit this code?
 
@@ -52,7 +51,7 @@ npm run dev
 
 ## What technologies are used for this project?
 
-This project is built with:
+This project is built with
 
 - Vite
 - TypeScript
