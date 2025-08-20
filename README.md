@@ -1,72 +1,75 @@
+# Pharma Aid Reach 💊
 
+A modern web application built to enhance pharmaceutical accessibility and aid distribution, connecting communities with essential medical resources.
 
-## Project info
+---
 
+## 🌟 Features
 
-## How can I edit this code?
+- **Modern UI/UX**: Built with shadcn-ui components and Tailwind CSS for a sleek, responsive design  
+- **Type Safety**: Full TypeScript implementation for robust development  
+- **Fast Performance**: Powered by Vite for lightning-fast build times and hot reloading  
+- **Responsive Design**: Mobile-first approach ensuring accessibility across all devices  
 
-There are several ways of editing your application.
+---
 
-**Use Lovable**
+## 📸 Screenshots
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/68f9d1df-5902-440e-922e-48d3a2836e9d) and start prompting.
+<!-- Add your screenshots here -->
 
-Changes made via Lovable will be committed automatically to this repo.
+![Landing Page](assets/screenshots/landing-page.png)  
+_Main landing page showcasing the application interface_
 
-**Use your preferred IDE**
+![Features Overview](assets/screenshots/features-overview.png)  
+_Key features and functionality overview_
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+![Mobile Interface](assets/screenshots/mobile-interface.png)  
+_Responsive mobile interface_
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+---
 
-Follow these steps:
+## 🎥 Demo Video
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
+<!-- Add your demo video here -->
+
+[Click to watch the full demo video](assets/demo-video.mp4)
+
+---
+
+## 🚀 Live Demo
+
+Visit the live application: [https://pharma-aid-reach.vercel.app/](https://pharma-aid-reach.vercel.app/)
+
+---
+
+## 🛠️ Technologies Used
+
+- **Vite** - Next generation frontend build tool  
+- **TypeScript** - Typed JavaScript at scale  
+- **React** - Component-based UI library  
+- **shadcn-ui** - Beautiful and accessible UI components  
+- **Tailwind CSS** - Utility-first CSS framework  
+
+---
+
+## 🏗️ Development Setup
+
+### Prerequisites
+
+- **Node.js** (v18 or higher) - Install with nvm  
+- **npm** (comes with Node.js)  
+
+### Quick Start
+
+```bash
+# Clone the repository
 git clone <YOUR_GIT_URL>
 
-# Step 2: Navigate to the project directory.
+# Navigate to project directory
 cd <YOUR_PROJECT_NAME>
 
-# Step 3: Install the necessary dependencies.
-npm i
+# Install dependencies
+npm install
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Start development server
 npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/68f9d1df-5902-440e-922e-48d3a2836e9d) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
