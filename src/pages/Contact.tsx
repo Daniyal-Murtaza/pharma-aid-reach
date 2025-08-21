@@ -197,7 +197,7 @@ const Contact = () => {
                     <Mail className="h-5 w-5 text-primary mt-1" />
                     <div>
                       <h4 className="font-medium text-foreground">Email</h4>
-                      <p className="text-muted-foreground">info@aspire.com</p>
+                      <p className="text-muted-foreground">sid@aspireentllc.com</p>
                       <p className="text-sm text-muted-foreground">We respond within 24 hours</p>
                     </div>
                   </div>

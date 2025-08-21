@@ -44,7 +44,7 @@ const Footer = () => {
           </div>
 
           {/* Products */}
-          <div className="space-y-4">
+          {/* <div className="space-y-4">
             <h4 className="text-lg font-semibold">Our Products</h4>
             <div className="space-y-2 text-sm text-white/80">
               <p>PPE & Medical Supplies</p>
@@ -53,7 +53,7 @@ const Footer = () => {
               <p>Laboratory Equipment</p>
               <p>Training Resources</p>
             </div>
-          </div>
+          </div> */}
 
           {/* Contact Info */}
           <div className="space-y-4">
@@ -72,7 +72,7 @@ const Footer = () => {
               </div>
               <div className="flex items-center gap-2">
                 <Mail className="h-4 w-4 text-white/60" />
-                <span className="text-white/80">info@aspire.com</span>
+                <span className="text-white/80">sid@aspireentllc.com</span>
               </div>
             </div>
           </div>
