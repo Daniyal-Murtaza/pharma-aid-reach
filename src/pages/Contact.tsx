@@ -66,8 +66,8 @@ const Contact = () => {
             </Badge>
             
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              Get in Touch with<br />
-              Our Global Team
+            Need Immediate Assistance?<br />
+            Get in Touch with us
             </h1>
             
             <p className="text-xl text-white/90 mb-8 max-w-3xl mx-auto">
@@ -188,7 +188,7 @@ const Contact = () => {
                     <Phone className="h-5 w-5 text-primary mt-1" />
                     <div>
                       <h4 className="font-medium text-foreground">Phone</h4>
-                      <p className="text-muted-foreground">+1 (555) 123-4567</p>
+                      <p className="text-muted-foreground">+1 (817) 405-2745</p>
                       <p className="text-sm text-muted-foreground">Monday - Friday, 8 AM - 6 PM EST</p>
                     </div>
                   </div>

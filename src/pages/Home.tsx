@@ -12,7 +12,7 @@ const Home = () => {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section 
+      <section
         className="relative min-h-[80vh] flex items-center justify-center bg-cover bg-center"
         style={{ backgroundImage: `url(${heroBg})` }}
       >
@@ -22,16 +22,16 @@ const Home = () => {
             <Shield className="w-4 h-4 mr-2" />
             FDA Certified • ANDA Approved • EU-GMP Compliant
           </Badge>
-          
+
           <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
             Your Global Partner in<br />
             <span className="text-primary-light">Pharmaceuticals & Healthcare Solutions</span>
           </h1>
-          
+
           <p className="text-xl md:text-2xl mb-8 text-white/90 max-w-3xl mx-auto">
-            Partnering with top pharma companies of India. Trusted distribution across USA, Mexico, Central Asia & Africa.
+            Representing Pharmaceutical companies of India. Co-operation with the health care institutions acros Mexico, Central Asia and Africa.
           </p>
-          
+
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button variant="cta" size="lg" asChild>
               <Link to="/products">
@@ -50,36 +50,42 @@ const Home = () => {
       <section className="py-16 bg-gradient-to-b from-white to-muted">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-foreground mb-4">Trusted Worldwide</h2>
+            <h2 className="text-3xl font-bold text-foreground mb-4">Distribution network</h2>
             <p className="text-muted-foreground max-w-2xl mx-auto">
-              Certified by leading global regulatory bodies and trusted by healthcare providers across multiple continents.
+              More than 1,500 items from the industry's leading categories
             </p>
           </div>
-          
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 items-center justify-items-center">
+
+          <div className="grid grid-cols-2 md:grid-cols-5 gap-8 items-center justify-items-center">
             <div className="text-center">
               <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-3">
                 <Shield className="h-8 w-8 text-primary" />
               </div>
-              <h3 className="font-semibold text-foreground">FDA Certified</h3>
+              <h3 className="font-semibold text-foreground">Presciption</h3>
             </div>
             <div className="text-center">
               <div className="w-16 h-16 bg-success/10 rounded-full flex items-center justify-center mx-auto mb-3">
                 <Award className="h-8 w-8 text-success" />
               </div>
-              <h3 className="font-semibold text-foreground">EU-GMP</h3>
+              <h3 className="font-semibold text-foreground">Free Sale</h3>
             </div>
             <div className="text-center">
               <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-3">
                 <CheckCircle className="h-8 w-8 text-primary" />
               </div>
-              <h3 className="font-semibold text-foreground">ANDA Approved</h3>
+              <h3 className="font-semibold text-foreground">Generics</h3>
             </div>
             <div className="text-center">
               <div className="w-16 h-16 bg-warning/10 rounded-full flex items-center justify-center mx-auto mb-3">
                 <Star className="h-8 w-8 text-warning" />
               </div>
-              <h3 className="font-semibold text-foreground">SDVOSB Certified</h3>
+              <h3 className="font-semibold text-foreground">Hygiene and beauty</h3>
+            </div>
+            <div className="text-center">
+              <div className="w-16 h-16 bg-warning/10 rounded-full flex items-center justify-center mx-auto mb-3">
+                <Star className="h-8 w-8 text-warning" />
+              </div>
+              <h3 className="font-semibold text-foreground">Healing</h3>
             </div>
           </div>
         </div>
@@ -91,17 +97,17 @@ const Home = () => {
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-foreground mb-4">Our Product Categories</h2>
             <p className="text-muted-foreground max-w-2xl mx-auto">
-              Comprehensive healthcare solutions from medical supplies to educational resources, 
+              Comprehensive healthcare solutions from medical supplies to educational resources,
               supporting healthcare providers worldwide.
             </p>
           </div>
-          
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+
+          <div className="grid grid-cols-1 md:grid-cols-1 gap-8">
             <Card className="group hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2">
               <div className="relative overflow-hidden rounded-t-lg">
-                <img 
-                  src={ppeSupplies} 
-                  alt="PPE and Medical Supplies" 
+                <img
+                  src={ppeSupplies}
+                  alt="PPE and Medical Supplies"
                   className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
                 />
                 <div className="absolute top-4 left-4">
@@ -112,56 +118,6 @@ const Home = () => {
                 <h3 className="text-xl font-semibold mb-3 text-foreground">PPE & Medical Supplies</h3>
                 <p className="text-muted-foreground mb-4">
                   High-quality masks, nitrile gloves, thermometers, gowns, and diagnostic test kits.
-                </p>
-                <Button variant="ghost" className="w-full justify-between" asChild>
-                  <Link to="/products">
-                    Learn More
-                    <ArrowRight className="h-4 w-4" />
-                  </Link>
-                </Button>
-              </CardContent>
-            </Card>
-
-            <Card className="group hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2">
-              <div className="relative overflow-hidden rounded-t-lg">
-                <img 
-                  src={researchEquipment} 
-                  alt="Research Equipment" 
-                  className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
-                />
-                <div className="absolute top-4 left-4">
-                  <Badge className="bg-success text-success-foreground">Research Equipment</Badge>
-                </div>
-              </div>
-              <CardContent className="p-6">
-                <h3 className="text-xl font-semibold mb-3 text-foreground">Research Equipment</h3>
-                <p className="text-muted-foreground mb-4">
-                  Laboratory glassware, advanced microscopes, and comprehensive training kits.
-                </p>
-                <Button variant="ghost" className="w-full justify-between" asChild>
-                  <Link to="/products">
-                    Learn More
-                    <ArrowRight className="h-4 w-4" />
-                  </Link>
-                </Button>
-              </CardContent>
-            </Card>
-
-            <Card className="group hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2">
-              <div className="relative overflow-hidden rounded-t-lg">
-                <img 
-                  src={educationalMaterials} 
-                  alt="Educational Materials" 
-                  className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
-                />
-                <div className="absolute top-4 left-4">
-                  <Badge className="bg-warning text-warning-foreground">Educational</Badge>
-                </div>
-              </div>
-              <CardContent className="p-6">
-                <h3 className="text-xl font-semibold mb-3 text-foreground">Educational Materials</h3>
-                <p className="text-muted-foreground mb-4">
-                  Medical books, anatomical charts, patient education resources, and training manuals.
                 </p>
                 <Button variant="ghost" className="w-full justify-between" asChild>
                   <Link to="/products">
@@ -182,10 +138,9 @@ const Home = () => {
             <div>
               <h2 className="text-3xl font-bold text-foreground mb-6">Global Network & Partnerships</h2>
               <p className="text-muted-foreground mb-6">
-                We maintain strategic partnerships with governments, health sectors, education, 
-                and economic development agencies across multiple continents.
+              Strategic partnerships with governments, health sectors, and economic development agencies
               </p>
-              
+
               <div className="space-y-4 mb-8">
                 <div className="flex items-center gap-3">
                   <Globe className="h-5 w-5 text-primary" />
@@ -193,7 +148,7 @@ const Home = () => {
                 </div>
                 <div className="flex items-center gap-3">
                   <Users className="h-5 w-5 text-primary" />
-                  <span className="text-foreground">Partnerships with top Indian pharmaceutical companies</span>
+                  <span className="text-foreground">Representing top Indian pharmaceutical companies</span>
                 </div>
                 <div className="flex items-center gap-3">
                   <Shield className="h-5 w-5 text-primary" />
@@ -201,10 +156,10 @@ const Home = () => {
                 </div>
                 <div className="flex items-center gap-3">
                   <Award className="h-5 w-5 text-primary" />
-                  <span className="text-foreground">Service-Disabled Veteran-Owned Small Business (SDVOSB)</span>
+                  <span className="text-foreground">Affiliation with Service-Disabled Veteran-Owned Small Business (SDVOSB)</span>
                 </div>
               </div>
-              
+
               <Button variant="hero" size="lg" asChild>
                 <Link to="/about">
                   Learn About Our Network
@@ -212,7 +167,7 @@ const Home = () => {
                 </Link>
               </Button>
             </div>
-            
+
             <div className="relative">
               <div className="grid grid-cols-2 gap-4">
                 <Card className="p-6 text-center">
@@ -220,16 +175,8 @@ const Home = () => {
                   <div className="text-muted-foreground">Countries Served</div>
                 </Card>
                 <Card className="p-6 text-center">
-                  <div className="text-3xl font-bold text-primary mb-2">500+</div>
-                  <div className="text-muted-foreground">Healthcare Partners</div>
-                </Card>
-                <Card className="p-6 text-center">
                   <div className="text-3xl font-bold text-primary mb-2">1000+</div>
                   <div className="text-muted-foreground">Products Available</div>
-                </Card>
-                <Card className="p-6 text-center">
-                  <div className="text-3xl font-bold text-primary mb-2">24/7</div>
-                  <div className="text-muted-foreground">Support Available</div>
                 </Card>
               </div>
             </div>
@@ -242,10 +189,9 @@ const Home = () => {
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold mb-4">Ready to Partner with Us?</h2>
           <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
-            Join hundreds of healthcare providers worldwide who trust Aspire 
-            for their pharmaceutical and medical supply needs.
+          Join our network of healthcare providers who trust Aspire for their pharmaceutical and medical supplies.
           </p>
-          
+
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button variant="cta" size="lg" asChild>
               <Link to="/contact">

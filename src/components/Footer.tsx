@@ -16,12 +16,12 @@ const Footer = () => {
             </div>
             <p className="text-white/80 text-sm">
               Your trusted global partner in pharmaceuticals and healthcare solutions. 
-              Serving healthcare providers worldwide with quality products and reliable service.
+              Serving healthcare providers worldwide with quality products and services.
             </p>
-            <div className="flex items-center gap-2">
+            {/* <div className="flex items-center gap-2">
               <Award className="h-4 w-4 text-success" />
               <span className="text-sm font-medium">Service-Disabled Veteran-Owned Small Business</span>
-            </div>
+            </div> */}
           </div>
 
           {/* Quick Links */}
@@ -59,16 +59,16 @@ const Footer = () => {
           <div className="space-y-4">
             <h4 className="text-lg font-semibold">Contact Info</h4>
             <div className="space-y-3 text-sm">
-              <div className="flex items-start gap-2">
+              {/* <div className="flex items-start gap-2">
                 <MapPin className="h-4 w-4 text-white/60 mt-1" />
                 <span className="text-white/80">
                   Global Distribution Network<br />
                   USA • Mexico • Central Asia • Africa
                 </span>
-              </div>
+              </div> */}
               <div className="flex items-center gap-2">
                 <Phone className="h-4 w-4 text-white/60" />
-                <span className="text-white/80">+1 (555) 123-4567</span>
+                <span className="text-white/80">+1 (817) 405-2745</span>
               </div>
               <div className="flex items-center gap-2">
                 <Mail className="h-4 w-4 text-white/60" />
