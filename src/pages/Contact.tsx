@@ -4,15 +4,15 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
 import { Badge } from "@/components/ui/badge";
-import { 
-  MapPin, 
-  Phone, 
-  Mail, 
-  Clock, 
-  Globe, 
-  Shield, 
+import {
+  MapPin,
+  Phone,
+  Mail,
+  Clock,
+  Globe,
+  Shield,
   MessageSquare,
-  Send 
+  Send
 } from "lucide-react";
 import { useState } from "react";
 import { useToast } from "@/hooks/use-toast";
@@ -33,7 +33,7 @@ const Contact = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    
+
     // Simple validation
     if (!formData.name || !formData.email || !formData.message) {
       toast({
@@ -64,14 +64,14 @@ const Contact = () => {
               <Globe className="w-4 h-4 mr-2" />
               Global Healthcare Network
             </Badge>
-            
+
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
-            Need Immediate Assistance?<br />
-            Get in Touch with us
+              Need Immediate Assistance?<br />
+              Get in Touch with us
             </h1>
-            
+
             <p className="text-xl text-white/90 mb-8 max-w-3xl mx-auto">
-              Ready to partner with a trusted healthcare solutions provider? 
+              Ready to partner with a trusted healthcare solutions provider?
               Contact us today to discuss your specific needs and discover how we can support your organization.
             </p>
           </div>
@@ -95,81 +95,23 @@ const Contact = () => {
                   </p>
                 </CardHeader>
                 <CardContent>
-                  <form onSubmit={handleSubmit} className="space-y-6">
-                    <div className="space-y-2">
-                      <Label htmlFor="name" className="text-foreground font-medium">
-                        Full Name *
-                      </Label>
-                      <Input
-                        id="name"
-                        name="name"
-                        type="text"
-                        value={formData.name}
-                        onChange={handleInputChange}
-                        placeholder="Enter your full name"
-                        className="border-input"
-                        required
-                      />
-                    </div>
-
-                    <div className="space-y-2">
-                      <Label htmlFor="address" className="text-foreground font-medium">
-                        Organization/Address
-                      </Label>
-                      <Input
-                        id="address"
-                        name="address"
-                        type="text"
-                        value={formData.address}
-                        onChange={handleInputChange}
-                        placeholder="Your organization or address"
-                        className="border-input"
-                      />
-                    </div>
-
-                    <div className="space-y-2">
-                      <Label htmlFor="email" className="text-foreground font-medium">
-                        Email Address *
-                      </Label>
-                      <Input
-                        id="email"
-                        name="email"
-                        type="email"
-                        value={formData.email}
-                        onChange={handleInputChange}
-                        placeholder="your.email@example.com"
-                        className="border-input"
-                        required
-                      />
-                    </div>
-
-                    <div className="space-y-2">
-                      <Label htmlFor="message" className="text-foreground font-medium">
-                        Message *
-                      </Label>
-                      <Textarea
-                        id="message"
-                        name="message"
-                        value={formData.message}
-                        onChange={handleInputChange}
-                        placeholder="Tell us about your needs, questions, or how we can help..."
-                        className="border-input min-h-[120px] resize-none"
-                        required
-                      />
-                    </div>
-
-                    <div className="bg-muted p-4 rounded-lg">
-                      <p className="text-sm text-muted-foreground">
-                        <Shield className="h-4 w-4 inline mr-2 text-success" />
-                        Your information is secure and will only be used to respond to your inquiry.
-                      </p>
-                    </div>
+                  <form
+                    action="https://formspree.io/f/xjkedkgl"
+                    method="POST"
+                    className="space-y-6"
+                  >
+                    {/* same inputs as before */}
+                    <Input id="name" name="name" type="text" placeholder="Enter your full name" required />
+                    <Input id="address" name="address" type="text" placeholder="Your organization or address" />
+                    <Input id="email" name="email" type="email" placeholder="your.email@example.com" required />
+                    <Textarea id="message" name="message" placeholder="Tell us about your needs..." required />
 
                     <Button type="submit" variant="hero" size="lg" className="w-full">
                       <Send className="mr-2 h-5 w-5" />
                       Send Message
                     </Button>
                   </form>
+
                 </CardContent>
               </Card>
             </div>
@@ -223,7 +165,7 @@ const Contact = () => {
                 </CardContent>
               </Card>
 
-              <Card className="bg-gradient-to-r from-primary/5 to-success/5">
+              {/* <Card className="bg-gradient-to-r from-primary/5 to-success/5">
                 <CardHeader>
                   <CardTitle className="flex items-center gap-3">
                     <Shield className="h-6 w-6 text-success" />
@@ -248,19 +190,19 @@ const Contact = () => {
                     <p className="text-foreground">24/7 Customer Support</p>
                   </div>
                 </CardContent>
-              </Card>
+              </Card> */}
 
-              <Card className="bg-gradient-to-r from-primary to-primary-dark text-white">
+              {/* <Card className="bg-gradient-to-r from-primary to-primary-dark text-white">
                 <CardContent className="p-6">
                   <h3 className="text-lg font-semibold mb-3">Need Immediate Assistance?</h3>
                   <p className="text-white/90 mb-4 text-sm">
                     For urgent inquiries or emergency supply needs, our dedicated support team is available 24/7.
                   </p>
                   <Button variant="cta" size="sm" className="w-full">
-                    Call Emergency Line: +1 (555) 911-HELP
+                    Call Emergency Line: +1 (817) 405-2745
                   </Button>
                 </CardContent>
-              </Card>
+              </Card> */}
             </div>
           </div>
         </div>
@@ -272,7 +214,7 @@ const Contact = () => {
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-foreground mb-4">Our Global Presence</h2>
             <p className="text-muted-foreground max-w-2xl mx-auto">
-              With distribution centers and partnerships across multiple continents, 
+              With distribution centers and partnerships across multiple continents,
               we're positioned to serve healthcare providers wherever they are.
             </p>
           </div>
